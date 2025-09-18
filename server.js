@@ -36,7 +36,7 @@ app.use("/allImages", express.static("images"));
 app.use("/allImages", express.static("document"));
 
 // MongoDB connection
-mongoose.connect("mongodb://localhost:27017/School")
+mongoose.connect("mongodb+srv://abdullahidacad28_db_user:y9RWiD2QbGUQwVFN@cluster0.kqgehdg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => console.log("✅ MongoDB connected"))
   .catch((err) => console.error("MongoDB connection error:", err));
 
